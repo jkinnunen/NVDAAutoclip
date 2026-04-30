@@ -2,7 +2,7 @@
 
 ## V1.3.4
 
-- Compatability with NVDA 2026.1.
+- Compatibility with NVDA 2026.1.
 
 ## V1.3.3
 
@@ -30,7 +30,7 @@
 
 ## V1.2.2
 
-This version is mostly 1.2.1, but I forgot and called v1.2.1 v1.2.0, therefore this is a rerelease called v1.2.2 to clear up any possible confusion.
+This version is mostly 1.2.1, but I forgot and called v1.2.1 v1.2.0, therefore this is a rerelease called v1.2.2 to clear up any confusion.
 
 ## V1.2.1
 
@@ -50,15 +50,15 @@ This version is mostly 1.2.1, but I forgot and called v1.2.1 v1.2.0, therefore t
 
 - You can now hide the option in the tools menu to toggle Autoclip. It can be found in the settings.
 
-- When a large block of text is copied to the clipboard, it will be split into  500 character segments and be spoken separately to avoid causing issues with speech synthesizers.
+- When a large block of text is copied to the clipboard, it will be split into 500-character segments and be spoken separately to avoid causing issues with speech synthesizers.
 
-- When the "always interrupt" option is enabled, rapid clipboard updates will no longer  interrupt speech.
+- When the "always interrupt" option is enabled, rapid clipboard updates will no longer interrupt speech.
 
 - Improved performance.
 
 ## V1.1.0
 
-- internal code optimizations to fix compatibility issue with DECTalk add-on and other bugs.
+- internal code optimizations to fix compatibility issues with DECTalk add-on and other bugs.
 
 - Updated translations.
 
@@ -72,7 +72,7 @@ This version is mostly 1.2.1, but I forgot and called v1.2.1 v1.2.0, therefore t
 
 ## V1.0.2
 
-- the toggle Autoclip script is now in it's own category. The description has been also updated to include the name of the add-on so that it can be found when searching for it in the input gesture dialog.
+- the toggle Autoclip script is now in its own category. The description has also been updated to include the name of the add-on so that it can be found when searching for it in the input gesture dialog.
 
 - You can now toggle Autoclip, automatic clipboard reading in sleep mode
 
