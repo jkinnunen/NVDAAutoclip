@@ -7,61 +7,61 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 'Autoclip' '1.2.0'\n"
-"Report-Msgid-Bugs-To: 'mzanf4@gmail.com'\n"
-"POT-Creation-Date: 2025-06-22 17:15+0300\n"
-"PO-Revision-Date: 2025-06-22 21:23+0300\n"
+"Report-Msgid-Bugs-To: mzanf4@gmail.com\n"
+"POT-Creation-Date: 2026-04-30 15:35+0000\n"
+"PO-Revision-Date: 2026-05-01 12:49+0300\n"
 "Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: \n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.9\n"
 
-#: addon\globalPlugins\autoclip\__init__.py:126
-#: addon\globalPlugins\autoclip\__init__.py:159
-#: addon\globalPlugins\autoclip\__init__.py:168
-#: addon\globalPlugins\autoclip\__init__.py:252
+#: addon/globalPlugins/autoclip/__init__.py:126
+#: addon/globalPlugins/autoclip/__init__.py:159
+#: addon/globalPlugins/autoclip/__init__.py:168
+#: addon/globalPlugins/autoclip/__init__.py:252
 msgid "Autoclip"
 msgstr "Automaattinen leikepöydän puhuminen"
 
-#: addon\globalPlugins\autoclip\__init__.py:158
-#: addon\globalPlugins\autoclip\__init__.py:214
+#: addon/globalPlugins/autoclip/__init__.py:158
+#: addon/globalPlugins/autoclip/__init__.py:214
 msgid "Toggles Autoclip, Automatic clipboard reading."
 msgstr ""
-"Ottaa käyttöön tai poistaa käytöstä Automaattinen leikepöydän puhuminen "
-"-lisäosan."
+"Ottaa käyttöön automaattisen leikepöydän sisällön puhumisen tai poistaa sen "
+"käytöstä."
 
-#: addon\globalPlugins\autoclip\__init__.py:167
+#: addon/globalPlugins/autoclip/__init__.py:167
 msgid ""
 "Toggles if Autoclip should interrupt speech before speaking the clipboard"
 msgstr "Määrittää, keskeytetäänkö puhe ennen leikepöydän sisällön puhumista"
 
-#: addon\globalPlugins\autoclip\__init__.py:173
+#: addon/globalPlugins/autoclip/__init__.py:173
 msgid "Enabled \"Interrupt before speaking the clipboard\""
 msgstr "Puhe keskeytetään ennen leikepöydän puhumista"
 
-#: addon\globalPlugins\autoclip\__init__.py:176
+#: addon/globalPlugins/autoclip/__init__.py:176
 msgid "Disabled \"Interrupt before speaking the clipboard\""
 msgstr "Puhetta ei keskeytetä ennen leikepöydän puhumista"
 
-#: addon\globalPlugins\autoclip\__init__.py:201
+#: addon/globalPlugins/autoclip/__init__.py:201
 msgid "Enabled Automatic Clipboard Reading."
 msgstr "Automaattinen leikepöydän puhuminen käytössä"
 
-#: addon\globalPlugins\autoclip\__init__.py:205
+#: addon/globalPlugins/autoclip/__init__.py:205
 msgid "Disabled Automatic Clipboard Reading."
 msgstr "Automaattinen leikepöydän puhuminen ei käytössä"
 
-#: addon\globalPlugins\autoclip\__init__.py:213
+#: addon/globalPlugins/autoclip/__init__.py:213
 msgid "&Automatic clipboard reading"
-msgstr "&Automaattinen leikepöydän puhuminen"
+msgstr "Puhu leikepöydän sisältö &automaattisesti"
 
-#: addon\globalPlugins\autoclip\__init__.py:258
+#: addon/globalPlugins/autoclip/__init__.py:258
 msgid "Always &Interrupt before speaking the clipboard"
 msgstr "&Keskeytä ennen leikepöydän sisällön puhumista"
 
-#: addon\globalPlugins\autoclip\__init__.py:265
+#: addon/globalPlugins/autoclip/__init__.py:265
 msgid ""
 "&Remember automatic clipboard reading after NVDA restart. Required for use "
 "in configuration profiles"
@@ -69,39 +69,39 @@ msgstr ""
 "&Muista automaattisen leikepöydän puhumisen tila NVDA:n "
 "uudelleenkäynnistyksen jälkeen"
 
-#: addon\globalPlugins\autoclip\__init__.py:270
+#: addon/globalPlugins/autoclip/__init__.py:270
 msgid "&Show in the NVDA tools menu"
 msgstr "&Näytä NVDA:n Työkalut-valikossa"
 
 #. Advanced settings
-#: addon\globalPlugins\autoclip\__init__.py:273
+#: addon/globalPlugins/autoclip/__init__.py:273
 msgid "Advanced Settings"
 msgstr "Lisäasetukset"
 
-#: addon\globalPlugins\autoclip\__init__.py:279
+#: addon/globalPlugins/autoclip/__init__.py:279
 msgid ""
 "Split text above this length to segments spoken separately (number under 100 "
 "to disable):"
 msgstr "Jaa teksti erillisiin osiin (alle 100 oleva arvo poistaa käytöstä):"
 
-#: addon\globalPlugins\autoclip\__init__.py:288
+#: addon/globalPlugins/autoclip/__init__.py:288
 msgid "When splitting text, try to split segments at word boundaries"
-msgstr "Pyri katkaisemaan osat sanan rajakohdissa"
+msgstr "Yritä katkaista osat sanojen rajakohdissa"
 
-#: addon\globalPlugins\autoclip\__init__.py:293
+#: addon/globalPlugins/autoclip/__init__.py:293
 msgid "Maximum text length to speak (characters):"
 msgstr "Puhuttavan tekstin enimmäispituus (merkkeinä):"
 
-#: addon\globalPlugins\autoclip\__init__.py:301
+#: addon/globalPlugins/autoclip/__init__.py:301
 msgid ""
 "Debounce Delay to not speaking a clipboard update with the same text "
 "(milliseconds) (0 to disable and never filter extra equivalent clipboard "
 "updates) (-1 to never speak an equivalent clipboard update:"
 msgstr ""
-"Saman tekstin estämisen viive (0 poistaa käytöstä, −1 estää saman sisällön "
-"puhumisen kokonaan):"
+"Saman tekstin puhumiseston viive (0 poistaa käytöstä, −1 estää saman "
+"sisällön puhumisen kokonaan):"
 
-#: addon\globalPlugins\autoclip\__init__.py:310
+#: addon/globalPlugins/autoclip/__init__.py:310
 msgid ""
 "Minimum delay between speech interrupts (milliseconds) (0 to disable and to "
 "always interrupt):"
@@ -109,23 +109,21 @@ msgstr ""
 "Vähimmäisaika puheen keskeytysten välillä (millisekunteina, 0 poistaa "
 "rajoituksen ja sallii keskeytykset aina):"
 
-#: addon\globalPlugins\autoclip\__init__.py:318
+#: addon/globalPlugins/autoclip/__init__.py:318
 msgid "Restore advanced settings to &defaults"
-msgstr "Palauta &oletukset"
+msgstr "Palauta lisäasetusten &oletukset"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: buildVars.py:23
 msgid "Autoclip, automatically speak clipboard content when it changes"
-msgstr ""
-"Automaattinen leikepöydän puhuminen: puhuu automaattisesti leikepöydän "
-"sisällön sen muuttuessa"
+msgstr "Automaattinen leikepöydän puhuminen"
 
 #: buildVars.py:27
 msgid ""
 "Automatically read the contents of the clipboard when a change is detected. "
 "Press NVDA + Shift + Control + K to toggle."
 msgstr ""
-"Puhu leikepöydän sisältö automaattisesti muutoksia havaittaessa. Ota lisäosa "
-"käyttöön tai poista se käytöstä painamalla NVDA+Vaihto+Ctrl+K."
+"Puhuu leikepöydän sisällön automaattisesti muutoksia havaittaessa. Ota "
+"lisäosa käyttöön tai poista se käytöstä painamalla NVDA+Vaihto+Ctrl+K."
