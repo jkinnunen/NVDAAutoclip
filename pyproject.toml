@@ -7,6 +7,11 @@ dependencies = [
     "scons>=4.9.1",
 ]
 
+[dependency-groups]
+dev = [
+    "ruff>=0.16.2",
+]
+
 [tool.ruff]
 src = ["addon", "../nvda/source"]
 line-length = 100
