@@ -1,5 +1,9 @@
 # NVDAAutoclip changelog
 
+## V1.3.5
+
+- Updated the Finnish translation and documentation.
+
 ## V1.3.4
 
 - Compatibility with NVDA 2026.1.
